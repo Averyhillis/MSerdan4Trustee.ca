@@ -6,9 +6,7 @@
 <title>Michael Serdan for School Board Trustee | Support Parents' Rights - Windsor, Ontario</title>
 <meta name="description" content="Michael Serdan is a concerned father running for public school board trustee in Windsor. Platform: parental rights, safe schools, zero tolerance for bullying, CORE & STEM literacy, financial accountability.">
 
-<!-- ===== 分享预览（缩略图）=====
-     下面的网址请换成你实际的网址（og:image 必须是完整网址，并且在浏览器里能直接打开）。
-     如果 MSerdan4Trustee.ca 还没生效，先用 github.io 的地址。 -->
+
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Michael Serdan for Trustee">
 <meta property="og:title" content="Michael Serdan for School Board Trustee | Windsor, Ontario">
@@ -233,16 +231,14 @@
   /* 桌面端隐藏手机专用的元素 */
   .mcard, .chips.mob, .vote-line { display: none; }
 
-  /* =====================================================
-     手机端 / 平板：照片靠右浮动，文字围绕照片，延伸到照片下方
-     ===================================================== */
+
   @media (max-width: 960px) {
     .hero { padding: 14px 0 28px; }
     .hero .wrap { padding: 0 16px; }
 
     .hero-grid { display: block; }
     .hero-grid > div { display: flow-root; }
-    .side, .chips.desk { display: none; }          /* 隐藏桌面版卡片和标签 */
+    .side, .chips.desk { display: none; }          
 
     /* 标签：独占一行 */
     .tag {
@@ -288,10 +284,10 @@
       white-space: normal; line-height: 1.15;
     }
     .hl .slogan .br { display: inline; }
-    /* 原来的 Vote for / 名字 在手机上隐藏，改用上面整行的 .vote-line */
+    
     .hl .vf, .hl .nm { display: none; }
 
-    /* "Vote for Michael Serdan." 放在标签下面、照片上面，占约 2/3 行宽 */
+
     .vote-line {
       display: block;
       margin: 0 0 12px;
@@ -307,20 +303,20 @@
     .vote-line .n {
       font-family: Georgia, "Times New Roman", serif;
       font-weight: 900; letter-spacing: -.02em;
-      font-size: clamp(20px, 5.8vw, 25px);       /* 想更大：改成 6.4vw / 28px */
+      font-size: clamp(20px, 5.8vw, 25px);       
       color: var(--navy);
       background: linear-gradient(transparent 88%, #d4a017 88%);
       padding-bottom: 3px;
     }
 
-    /* 简介：先在照片旁边排，排到照片下方后自动变成整行宽度 */
+    
     .lead {
       margin: 12px 0 0;
       font-size: 14px; line-height: 1.6;
       max-width: none;
     }
 
-    /* 地点标签：在简介下面 */
+    
     .chips.mob { display: flex; clear: both; margin-top: 14px; gap: 8px; }
     .chip { font-size: 12px; padding: 4px 12px; }
 
@@ -329,7 +325,7 @@
     .quote { display: none; }
   }
 
-  /* ===== About 区：手机端照片靠右，文字围绕 ===== */
+  
   .ap-mob { display: none; }
   @media (max-width: 960px) {
     .about.pad { padding: 48px 0; }
